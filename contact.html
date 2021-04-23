@@ -5,9 +5,14 @@
         <title>Фон</title> 
         <style> 
             body { 
-                background: (assets/images/фон.jpg;) /* Цвет фона и путь к файлу */ 
-                color: #fff; / Цвет текста */ 
-    } </style> 
+                html { background-image: url(assets/images/фон.jpg;); 
+                    background-repeat: no-repeat; background-position: center center; 
+                    background-attachment: fixed; 
+                    -webkit-background-size: cover; 
+                    -moz-background-size: cover; 
+                    -o-background-size: cover; 
+                    background-size: cover; }
+   </style> 
     </head> 
     <body> 
         <p>...</p> 
